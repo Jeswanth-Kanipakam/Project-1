@@ -1,0 +1,19 @@
+# Shareable dataset manifest
+
+This workspace documents the dataset and reconstruction outputs but does not duplicate the full image dataset.
+
+Validated room capture:
+- 152 original JPG frames
+- 1920x1080
+
+Validated SfM:
+- 142 registered images
+- 29,666 3D points
+- 214,175 observations
+- 1.234 px mean reprojection error
+
+Nerfstudio:
+- 142 registered images
+- valid transforms.json
+- SIMPLE_RADIAL
+- focal length 1410.0115 px
